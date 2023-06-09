@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Sorts data from the previous task
+
+awk '{print $1" "$9}' "apache-access.log" | sort | uniq -c | sort -n -r
