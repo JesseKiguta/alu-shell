@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Gets PID of your Bash process
+ps afux | grep bash
