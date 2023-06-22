@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Displays task 4 text with "I am invincible!!!"
+text(){
+echo "I am invincible!!!"
+exit 0
+}
+trap 'text' SIGTERM
+while true;
+do
+echo "To infinity and beyond"
+sleep 2
+done
