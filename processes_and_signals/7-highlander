@@ -2,7 +2,7 @@
 # Displays task 4 text with "I am invincible!!!"
 trap 'echo "I am invincible!!!"' SIGTERM
 $counter = 2
-while [$counter -gt 0];
+while [ $counter -gt 0 ];
 do
 echo "To infinity and beyond"
 sleep 2
